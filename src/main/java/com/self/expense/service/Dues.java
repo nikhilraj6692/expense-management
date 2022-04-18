@@ -1,9 +1,9 @@
-package com.example.geektrust.service;
+package com.self.expense.service;
 
-import com.example.geektrust.domain.DebtComparator;
-import com.example.geektrust.domain.Expense;
-import com.example.geektrust.domain.Pair;
-import com.example.geektrust.enums.Status;
+import com.self.expense.domain.DebtComparator;
+import com.self.expense.domain.Expense;
+import com.self.expense.domain.Pair;
+import com.self.expense.enums.Status;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;

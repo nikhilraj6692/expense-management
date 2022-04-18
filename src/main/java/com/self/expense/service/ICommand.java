@@ -1,4 +1,4 @@
-package com.example.geektrust.service;
+package com.self.expense.service;
 
 @FunctionalInterface
 public interface ICommand

@@ -1,4 +1,4 @@
-package com.example.geektrust.service;
+package com.self.expense.service;
 
 public interface IExpenseService
 {

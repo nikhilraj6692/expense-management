@@ -1,4 +1,4 @@
-package com.example.geektrust.domain;
+package com.self.expense.domain;
 
 import java.util.Map;
 

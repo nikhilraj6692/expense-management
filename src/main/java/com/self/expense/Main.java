@@ -1,8 +1,8 @@
-package com.example.geektrust;
+package com.self.expense;
 
-import com.example.geektrust.config.Configuration;
-import com.example.geektrust.service.ExpenseServiceImpl;
-import com.example.geektrust.service.IExpenseService;
+import com.self.expense.config.Configuration;
+import com.self.expense.service.ExpenseServiceImpl;
+import com.self.expense.service.IExpenseService;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

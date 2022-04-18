@@ -1,8 +1,8 @@
-package com.example.geektrust.service;
+package com.self.expense.service;
 
-import com.example.geektrust.config.Configuration;
-import com.example.geektrust.enums.Command;
-import com.example.geektrust.enums.Status;
+import com.self.expense.config.Configuration;
+import com.self.expense.enums.Command;
+import com.self.expense.enums.Status;
 
 /*
 Service class to render command string and execute command

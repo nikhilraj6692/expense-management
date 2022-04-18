@@ -1,4 +1,4 @@
-package com.example.geektrust.domain;
+package com.self.expense.domain;
 
 /*
 Generic class to create a pair of first and second value

@@ -1,4 +1,4 @@
-package com.example.geektrust.enums;
+package com.self.expense.enums;
 
 /*
 enum class to store all possible commands

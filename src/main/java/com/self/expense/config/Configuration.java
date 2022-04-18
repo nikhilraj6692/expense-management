@@ -1,15 +1,15 @@
-package com.example.geektrust.config;
+package com.self.expense.config;
 
-import com.example.geektrust.domain.DebtComparator;
-import com.example.geektrust.domain.Expense;
-import com.example.geektrust.enums.Command;
-import com.example.geektrust.service.ClearDue;
-import com.example.geektrust.service.Dues;
-import com.example.geektrust.service.ICommand;
-import com.example.geektrust.service.MinimizeCashFlowService;
-import com.example.geektrust.service.MoveIn;
-import com.example.geektrust.service.MoveOut;
-import com.example.geektrust.service.Spend;
+import com.self.expense.domain.DebtComparator;
+import com.self.expense.domain.Expense;
+import com.self.expense.enums.Command;
+import com.self.expense.service.ClearDue;
+import com.self.expense.service.Dues;
+import com.self.expense.service.ICommand;
+import com.self.expense.service.MinimizeCashFlowService;
+import com.self.expense.service.MoveIn;
+import com.self.expense.service.MoveOut;
+import com.self.expense.service.Spend;
 import java.util.Map;
 
 /*

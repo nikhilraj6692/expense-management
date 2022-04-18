@@ -1,4 +1,4 @@
-package com.example.geektrust.enums;
+package com.self.expense.enums;
 
 /*
 Enum to store all possible status of a command in execution

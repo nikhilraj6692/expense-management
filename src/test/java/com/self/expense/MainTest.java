@@ -1,14 +1,15 @@
-package com.example.geektrust;
+package com.self.expense;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.example.geektrust.config.Configuration;
-import com.example.geektrust.enums.Status;
-import com.example.geektrust.service.ExpenseServiceImpl;
-import com.example.geektrust.service.IExpenseService;
+import com.self.expense.config.Configuration;
+import com.self.expense.enums.Status;
+import com.self.expense.service.ExpenseServiceImpl;
+import com.self.expense.service.IExpenseService;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -29,7 +30,7 @@ class MainTest
     @Test
     void testInvalidCommand()
     {
-        assertEquals(service.execute("BOGUS_CMD"), Status.FAILURE.name());
+        Assertions.assertEquals(service.execute("BOGUS_CMD"), Status.FAILURE.name());
     }
 
     @Test

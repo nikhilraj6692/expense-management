@@ -1,6 +1,6 @@
-package com.example.geektrust.service;
+package com.self.expense.service;
 
-import com.example.geektrust.domain.Expense;
+import com.self.expense.domain.Expense;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
